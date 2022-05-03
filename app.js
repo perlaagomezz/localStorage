@@ -40,9 +40,6 @@ section.appendChild(h2elm)
 
 
 
-
-
-
 const cars = ["ford", "dodge", "honda", "ram", "tesla", "volvo", "subaru"]
 
 let carsString = JSON.stringify(cars)
@@ -55,7 +52,7 @@ let newCars = JSON.parse(unstoredArray)
 
 const h3elm = document.createElement('h3')
 
-h3elm.textContent = "My favorite car is " + newCars 
+h3elm.textContent = "My favorite car is " + newCars [6]
 
 section.appendChild(h3elm)
 
